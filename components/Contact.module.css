@@ -1,0 +1,22 @@
+.section { background: var(--surface); padding: 110px 60px; }
+.inner { max-width: 820px; margin: 0 auto; text-align: center; }
+.heading { font-size: 52px; color: var(--white); letter-spacing: -0.02em; margin: 14px 0 24px; line-height: 1.1; }
+.sub { font-size: 17px; color: var(--secondary); line-height: 1.8; margin-bottom: 48px; max-width: 580px; margin-left: auto; margin-right: auto; }
+.btns { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 64px; }
+.details {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  padding-top: 48px;
+  text-align: left;
+}
+.detailLabel { font-size: 10px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; }
+.detailVal { font-size: 19px; color: var(--white); transition: color 0.2s; }
+.detailVal:hover { color: var(--gold); }
+@media (max-width: 900px) {
+  .section { padding: 80px 24px; }
+  .heading { font-size: 38px; }
+  .details { gap: 36px; }
+}

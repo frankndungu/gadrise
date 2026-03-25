@@ -1,0 +1,37 @@
+.bar {
+  background: var(--surface);
+  border-top: 1px solid rgba(201, 150, 42, 0.15);
+  border-bottom: 1px solid rgba(201, 150, 42, 0.15);
+  padding: 52px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.row {
+  display: contents;
+}
+.item { text-align: center; }
+.num {
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+}
+.label {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.divider {
+  width: 1px;
+  height: 64px;
+  background: rgba(201, 150, 42, 0.2);
+  flex-shrink: 0;
+}
+@media (max-width: 900px) {
+  .bar { padding: 40px 24px; flex-wrap: wrap; gap: 36px; justify-content: flex-start; }
+  .divider { display: none; }
+  .num { font-size: 40px; }
+}
