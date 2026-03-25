@@ -1,4 +1,4 @@
-# Malel Heights — Gadrise Properties Limited
+# Gadrise Properties Limited
 
 Premium real estate landing page for Malel Heights and Malel Residence developments in Eldoret, Kenya.
 
